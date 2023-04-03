@@ -2,6 +2,7 @@ import streamlit as st
 import datetime
 import time
 import calendar
+import os
 #---------------------set page------------------------------
 st.set_page_config(page_title="3eme Math 2023",page_icon=":ledger:",layout="wide")
 #-------------------Title-----------------------------------
@@ -20,25 +21,25 @@ path9 = r"E:\Scripts\Python\xy_plus_3_mathematiques_section_3em_math_tome1.pdf"
 path10 = r"E:\Scripts\Python\xy_plus_3_mathematiques_section_3em_math_tome2.pdf"
 
 #------------------------------read file------------------------
-with open(path1, 'rb') as f:
+with open(os.path.exists(path1), 'rb') as f:
     file_data1 = f.read()
-with open(path2, 'rb') as f:
+with open(os.path.exists(path2), 'rb') as f:
     file_data2 = f.read()
-with open(path3, 'rb') as f:
+with open(os.path.exists(path3), 'rb') as f:
     file_data3 = f.read()
-with open(path4, 'rb') as f:
+with open(os.path.exists(path4), 'rb') as f:
     file_data4 = f.read()
-with open(path5, 'rb') as f:
+with open(os.path.exists(path5), 'rb') as f:
     file_data5 = f.read()
-with open(path6, 'rb') as f:
+with open(os.path.exists(path6), 'rb') as f:
     file_data6 = f.read()
-with open(path7, 'rb') as f:
+with open(os.path.exists(path7), 'rb') as f:
     file_data7 = f.read()
-with open(path8, 'rb') as f:
+with open(os.path.exists(path8), 'rb') as f:
     file_data8 = f.read()
-with open(path9, 'rb') as f:
+with open(os.path.exists(path9), 'rb') as f:
     file_data9 = f.read()
-with open(path10, 'rb') as f:
+with open(os.path.exists(path10), 'rb') as f:
     file_data10 = f.read()
 
 #------------Physique---------
