@@ -142,10 +142,4 @@ with col11:
 with col12:
     st.write("Copyright :copyright: 2023, Streamlit Inc")
 
-current_time = st.empty()
-current_time.text(datetime.datetime.now().strftime("%H:%M:%S"))
 
-# Update the time every second
-while True:
-    current_time.text(datetime.datetime.now().strftime("%H:%M:%S"))
-    time.sleep(1)
