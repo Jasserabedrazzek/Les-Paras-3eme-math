@@ -6,16 +6,16 @@ st.set_page_config(page_title="3eme Math 2023",page_icon=":ledger:",layout="wide
 st.title('Les Parascolaires 3eme Math 2023 :books:')
 
 # -----------------------Path-------------------------------
-path1 = r"E:\Scripts\Python\Atomix_chimie_3eme_math.pdf"
-path2 = r"E:\Scripts\Python\Atomix_physique_3eme_math.pdf"
-path3 = r"E:\Scripts\Python\Collection_methodes_Chimie_3eme_secondaire_ocr.pdf"
-path4 = r"E:\Scripts\Python\Cahiers_des_Mathematiques_Analyse_3eme_sec_Section_Math_ocr.pdf"
-path5 = r"E:\Scripts\Python\Cahiers_des_Mathematiques_Proba_Geo_3eme_sec_Section_Math_ocr.pdf"
-path6 = r"E:\Scripts\Python\Collection_bios_sv3_3eme_math_ocr.pdf"
-path7 = r"E:\Scripts\Python\falsafa 3eme.pdf"
-path8 = r"E:\Scripts\Python\Manuel_scolaire_3_math_section_math_t2.pdf"
-path9 = r"E:\Scripts\Python\xy_plus_3_mathematiques_section_3em_math_tome1.pdf"
-path10 = r"E:\Scripts\Python\xy_plus_3_mathematiques_section_3em_math_tome2.pdf"
+path1 = r"Atomix_chimie_3eme_math.pdf"
+path2 = r"Atomix_physique_3eme_math.pdf"
+path3 = r"Collection_methodes_Chimie_3eme_secondaire_ocr.pdf"
+path4 = r"Cahiers_des_Mathematiques_Analyse_3eme_sec_Section_Math_ocr.pdf"
+path5 = r"Cahiers_des_Mathematiques_Proba_Geo_3eme_sec_Section_Math_ocr.pdf"
+path6 = r"Collection_bios_sv3_3eme_math_ocr.pdf"
+path7 = r"falsafa 3eme.pdf"
+path8 = r"Manuel_scolaire_3_math_section_math_t2.pdf"
+path9 = r"xy_plus_3_mathematiques_section_3em_math_tome1.pdf"
+path10 = r"xy_plus_3_mathematiques_section_3em_math_tome2.pdf"
 
 #------------------------------read file------------------------
 with open(os.path.exists(path1), 'rb') as f:
