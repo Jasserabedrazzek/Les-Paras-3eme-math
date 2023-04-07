@@ -1,7 +1,4 @@
 import streamlit as st
-import datetime
-import time
-import calendar
 import os
 #---------------------set page------------------------------
 st.set_page_config(page_title="3eme Math 2023",page_icon=":ledger:",layout="wide")
