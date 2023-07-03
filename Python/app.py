@@ -132,11 +132,12 @@ st.download_button(
     mime='application/pdf'
 )
 st.write("---")
-
+st.write('[PDF rerader](https://pdf-reader.streamlit.app/)' )
 col11,col12 = st.columns(2)
 with col11:
     st.write("Crédits:","[Jasser ben abed razzek](https://www.facebook.com/jasser.razzek.3/)")
 with col12:
     st.write("Copyright :copyright: 2023, Streamlit Inc")
+
 
 
